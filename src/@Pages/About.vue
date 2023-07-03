@@ -17,14 +17,12 @@
             <!-- 個人介紹 (Start) -->
             <div class="mb-4">
               <div class="mb-2">
-                <div data-aos="zoom-in" data-aos-duration="1000">
-                  <img src="https://tecdn.b-cdn.net/img/new/standard/city/047.jpg" class="h-auto max-w-full rounded-lg"
-                    alt="" />
+                <div data-aos="zoom-in" data-aos-duration="1000" class=" w-60 mx-auto">
+                  <img src="/src/assets/img/avatar.png" class="h-auto w-full rounded-lg" alt="" />
                 </div>
-                <h2 class="text-center text-lg font-extrabold">About Me</h2>
               </div>
               <div class="mb-2 text-sm text-gray-900 leading-6" data-aos="fade-right">
-                <p>您好，我叫莊欣潔，畢業於台南應用科技大學視覺傳達設計系，台南人。家裡是開水庫魚料理餐廳，從小就在家幫忙端盤子洗碟子點菜結帳，從中學習到許多與客人的應對方式，刻苦耐勞個性也是這樣訓練出來的</p>
+                <p>我喜歡觀察網站上的新變化，以使用者角度思考並以邏輯性解決問題。以下是我的專業技能和經驗，期待為貴公司帶來價值：</p>
               </div>
             </div>
             <!-- 個人介紹 (End) -->
@@ -134,7 +132,7 @@
 
 
                 <ul class="flex flex-col">
-                  <li class="lg:mx-6  border-l-2 border-[#819B9A]" data-aos="fade-left">
+                  <li class="lg:mx-6  border-l-2 pb-3 border-[#819B9A]" data-aos="fade-left">
                     <div class="md:flex flex-start">
                       <div
                         class="bg-[#D8E5E1] text-[#819B9A]  w-5 h-5 flex items-center justify-center rounded-full -ml-[0.65rem]">
@@ -146,7 +144,7 @@
 
                       </div>
                       <div
-                        class="max-w-md ml-6 mb-2 transition duration-500 ease-in-out transform hover:-translate-y-1 w-full">
+                        class="max-w-md ml-6 mb-2 transition duration-500 ease-in-out transform hover:-translate-y-1 lg:w-full">
                         <div class="flex-row items-center justify-between mb-1">
                           <h6 class="text-xs text-[#464C4C] font-normal">2018/7~2018/12
 
@@ -164,7 +162,7 @@
 
                           <details class="group bg-transparent">
                             <summary class="flex justify-between items-center font-medium cursor-pointer list-none">
-                              <span class="text-xs  text-zinc-500">從小就喜愛繪圖，因為這項專長踏入了設計系...</span>
+                              <span class="text-xs  text-zinc-500">對網頁開始有興趣,因而報名了資策會的前端工程...</span>
 
                               <div class="text-sm flex whitespace-nowrap text-[#C789C0]">see more
                                 <span class="transition group-open:rotate-180">
@@ -176,8 +174,9 @@
                                 </span>
                               </div>
                             </summary>
-                            <p class="text-xs text-gray-500 group-open:animate-fadeIn">
-                              求學路程中領悟到會畫圖並不代表會設計這個道理，設計之路有很多規則存在。當時流行著一個玩笑：讀設計畢業後就去賣雞排了，沒想到我一畢業真的跑去澳洲賣鹹酥雞，卻也從中接到設計case，覺得幸運可以多賺旅費外也從工作中得到樂趣。　　
+                            <p class="text-xs text-gray-500 group-open:animate-fadeIn leading-6">
+                              在資策會的專題中，我們與團隊合作，使用React架設了知音文創的網站。我的貢獻是負責Product list和Product
+                              Detail的串接，這是我第一次參與前後端網頁開發。雖然過程辛苦，但也讓我感到非常有成就感，同時學到了團隊合作的重要性。
                             </p>
                           </details>
 
@@ -196,7 +195,7 @@
                         </svg>
                       </div>
                       <div
-                        class="max-w-md ml-6 mb-2 transition duration-500 ease-in-out transform hover:-translate-y-1 w-full"
+                        class="max-w-md ml-6 mb-2 transition duration-500 ease-in-out transform hover:-translate-y-1 lg:w-full"
                         data-aos="fade-left">
                         <div class="flex-row items-center justify-between mb-1">
                           <h6 class="text-xs text-[#464C4C] font-normal">2006/9~2012/6
@@ -214,7 +213,7 @@
 
                           <details class="group bg-transparent">
                             <summary class="flex justify-between items-center font-medium cursor-pointer list-none">
-                              <span class="text-xs  text-zinc-500">從小就喜愛繪圖，因為這項專長踏入了設計系...</span>
+                              <span class="text-xs  text-zinc-500">從小就喜愛繪圖，因為這項專長而選擇了設計系...</span>
 
                               <div class="text-sm flex whitespace-nowrap text-[#C789C0]">see more
                                 <span class="transition group-open:rotate-180">
@@ -226,8 +225,8 @@
                                 </span>
                               </div>
                             </summary>
-                            <p class="text-xs text-gray-500 group-open:animate-fadeIn">
-                              求學路程中領悟到會畫圖並不代表會設計這個道理，設計之路有很多規則存在。當時流行著一個玩笑：讀設計畢業後就去賣雞排了，沒想到我一畢業真的跑去澳洲賣鹹酥雞，卻也從中接到設計case，覺得幸運可以多賺旅費外也從工作中得到樂趣。　　
+                            <p class="text-xs text-gray-500 group-open:animate-fadeIn leading-6">
+                              在大學畢業專題中，我們用Flash製作了一個專為復健患者設計的互動網頁。患者可以使用平板電腦點選復健動畫，並以紅點標示關鍵位置。這次經驗讓我第一次接觸網頁排版，並培養了對網頁設計的興趣。
                             </p>
                           </details>
 
@@ -397,7 +396,7 @@ const workSkill = [
   {
     src: "/src/assets/img/about/ps.png",
     color: "#001E36",
-    value: 90
+    value: 80
   },
   {
     src: "/src/assets/img/about/xd.png",
@@ -407,7 +406,7 @@ const workSkill = [
   {
     src: "/src/assets/img/about/pr.png",
     color: "#00005B",
-    value: 75
+    value: 70
   }
   ,
   {

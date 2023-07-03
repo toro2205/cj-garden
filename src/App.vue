@@ -55,10 +55,10 @@
         <li>
           <RouterLink to="/ui-design" class=" text-base md:text-xl hover:text-cyan-500">
             <span>
-              UI Design</span>
+              ALL WORKS</span>
           </RouterLink>
         </li>
-        <li>
+        <!-- <li>
           <RouterLink to="/ux-design" class=" text-base md:text-xl hover:text-cyan-500">
             <span>
               UX Design</span>
@@ -69,7 +69,7 @@
             <span>
               Inspiration</span>
           </RouterLink>
-        </li>
+        </li> -->
       </ul>
     </nav>
 
