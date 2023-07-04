@@ -18,7 +18,7 @@
             <div class="mb-4">
               <div class="mb-2">
                 <div data-aos="zoom-in" data-aos-duration="1000" class=" w-60 mx-auto">
-                  <img src="/src/assets/img/avatar.png" class="h-auto w-full rounded-lg" alt="" />
+                  <img src="/avatar.png" class="h-auto w-full rounded-lg" alt="" />
                 </div>
               </div>
               <div class="mb-2 text-sm text-gray-900 leading-6" data-aos="fade-right">
@@ -365,21 +365,21 @@ import { CircleProgressBar } from 'vue3-m-circle-progress-bar';
 
 const workList = [
   {
-    logo: "/src/assets/img/about/logo_hw.png",
+    logo: "/img/about/logo_hw.png",
     office: "好會飛網路股份有限公司",
     company: "網頁設計師",
     dateRange: "2019/3~2023/3",
     dateTotal: "4年1個月"
   },
   {
-    logo: "/src/assets/img/about/logo_ptt.jpg",
+    logo: "/img/about/logo_ptt.jpg",
     office: "博彩堂印刷設計",
     company: "美編",
     dateRange: "2017/4~2018/3",
     dateTotal: "1年"
   },
   {
-    logo: "/src/assets/img/about/logo_gm.png",
+    logo: "/img/about/logo_gm.png",
     office: "景美企業社",
     company: "行政秘書",
     dateRange: "2013/9~2017/7",
@@ -389,63 +389,63 @@ const workList = [
 
 const workSkill = [
   {
-    src: "/src/assets/img/about/ai.png",
+    src: "/img/about/ai.png",
     color: "#FF9A00",
     value: 90
   },
   {
-    src: "/src/assets/img/about/ps.png",
+    src: "/img/about/ps.png",
     color: "#001E36",
     value: 80
   },
   {
-    src: "/src/assets/img/about/xd.png",
+    src: "/img/about/xd.png",
     color: "#470137",
     value: 92
   },
   {
-    src: "/src/assets/img/about/pr.png",
+    src: "/img/about/pr.png",
     color: "#00005B",
     value: 70
   }
   ,
   {
-    src: "/src/assets/img/about/ax.png",
+    src: "/img/about/ax.png",
     color: "#2C87C9",
     value: 80
   },
   {
-    src: "/src/assets/img/about/fg.png",
+    src: "/img/about/fg.png",
     color: "#353535",
     value: 85
   },
   {
-    src: "/src/assets/img/about/scss.png",
+    src: "/img/about/scss.png",
     color: "#CB6699",
     value: 85
   },
   {
-    src: "/src/assets/img/about/bs.png",
+    src: "/img/about/bs.png",
     color: "#9013FE",
     value: 90
   },
   {
-    src: "/src/assets/img/about/git.png",
+    src: "/img/about/git.png",
     color: "#FC573B",
     value: 85
   },
   {
-    src: "/src/assets/img/about/jq.png",
+    src: "/img/about/jq.png",
     color: "#0C6AAD",
     value: 85
   },
   {
-    src: "/src/assets/img/about/js.png",
+    src: "/img/about/js.png",
     color: "#FDDE00",
     value: 70
   },
   {
-    src: "/src/assets/img/about/vue.png",
+    src: "/img/about/vue.png",
     color: "#42B883",
     value: 70
   }
@@ -453,36 +453,36 @@ const workSkill = [
 
 const Abilities = [
   {
-    img: "/src/assets/img/about/i_01.svg",
+    img: "/img/about/i_01.svg",
     text: "視覺美感",
   },
   {
-    img: "/src/assets/img/about/i_02.svg",
+    img: "/img/about/i_02.svg",
     text: "介面設計",
   },
   {
-    img: "/src/assets/img/about/i_03.svg",
+    img: "/img/about/i_03.svg",
     text: "流程邏輯",
   },
   {
-    img: "/src/assets/img/about/i_04.svg",
+    img: "/img/about/i_04.svg",
     text: "團隊合作",
   }
   ,
   {
-    img: "/src/assets/img/about/i_05.svg",
+    img: "/img/about/i_05.svg",
     text: "使用者研究",
   },
   {
-    img: "/src/assets/img/about/i_06.svg",
+    img: "/img/about/i_06.svg",
     text: "客製化插圖",
   },
   {
-    img: "/src/assets/img/about/i_07.svg",
+    img: "/img/about/i_07.svg",
     text: "互動設計",
   },
   {
-    img: "/src/assets/img/about/i_08.svg",
+    img: "/img/about/i_08.svg",
     text: "前端語言",
   }
 ];

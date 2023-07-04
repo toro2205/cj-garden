@@ -12,7 +12,8 @@
       //Sub Locations
       "@/*":["*"],
       "@components/*":["components/*"],
-      "@pages/*":["@Pages/*"]
+      "@pages/*":["@Pages/*"],
+      "@images/*":["assets/img/*"]
     },
 
     /* Bundler mode */
