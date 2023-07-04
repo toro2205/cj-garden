@@ -25,7 +25,7 @@ export default defineConfig({
       eslintrc: { enabled: true },
     }),
   ],
-  base: "/cj-garden/",
+  base: "/portfolio",
   resolve:{
     alias:{
       //Two methods available
