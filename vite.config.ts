@@ -35,6 +35,7 @@ export default defineConfig({
        //Method 2 :using path
        "@components":path.relative(__dirname,"src/components"),
        "@pages": path.resolve(__dirname, "src/@Pages"),
+       '@images': path.resolve(__dirname, 'src/assets/img')
     }
   }
 })

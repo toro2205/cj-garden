@@ -75,31 +75,33 @@ const cardData = [
   //   "modalImg": "/src/assets/img/ui/04.png",
   //   "designConcept": "天天更新銷售最好的前10名商品,前三名以獎盃來凸顯,後七名滑動可看相關商品，剩餘商品以網站類別分區載入。整體設計以機場氛圍加入相關元素來製作"
   // },
-  // {
-  //   "cardImg": "/src/assets/img/ui/05.png",
-  //   swiperImg:[
-  //     "/src/assets/img/ui/05_01.png",
-  //     "/src/assets/img/ui/05_02.png",
-  //     "/src/assets/img/ui/05_03.png",
-  //   ],
-  //   "cardTitle": "HaWooo System",
-  //   "cardTag": "HaWooo Web",
-  //   "class": "lg:col-span-4 col-span-1",
-  //   "modalImg": "assets/img/modal/modalImg3.png",
-  //   "designConcept": "定義各狀態元件並且模組化"
-  // },
-  // {
-  //   "cardImg": "/src/assets/img/ui/06.png",
-  //   swiperImg:[
-  //     "/src/assets/img/ui/06_01.png",
-  //     "/src/assets/img/ui/06_02.png",
-  //   ],
-  //   "cardTitle": "Member Card",
-  //   "cardTag": "HaWooo Web",
-  //   "class": "lg:col-span-4 col-span-1",
-  //   "modalImg": "assets/img/modal/modalImg6.png",
-  //   "designConcept": "會員卡設計、等級icon設計，並透過更換class來切換各卡別UI"
-  // },
+  {
+    "cardImg": "/src/assets/img/ui/05.png",
+    swiperImg:[
+      "/src/assets/img/ui/05_01.png",
+      "/src/assets/img/ui/05_02.png",
+      "/src/assets/img/ui/05_03.png",
+      "/src/assets/img/ui/05_04.png",
+    ],
+    "cardTitle": "HaWooo System",
+    "cardTag": "HaWooo Web",
+    "class": "lg:col-span-4 col-span-1",
+    "modalImg": "assets/img/modal/modalImg3.png",
+    "designConcept": "定義各狀態元件並且模組化"
+  },
+  {
+    "cardImg": "/src/assets/img/ui/06.png",
+    swiperImg:[
+      "/src/assets/img/ui/06_01.png",
+      "/src/assets/img/ui/06_02.png",
+      "/src/assets/img/ui/06_03.png",
+    ],
+    "cardTitle": "Website",
+    "cardTag": "網站製作",
+    "class": "lg:col-span-4 col-span-1",
+    "modalImg": "assets/img/modal/modalImg6.png",
+    "designConcept": "會員卡設計、等級icon設計，並透過更換class來切換各卡別UI"
+  },
   // {
   //   "cardImg": "/src/assets/img/ui/07.png",
   //   swiperImg:[
