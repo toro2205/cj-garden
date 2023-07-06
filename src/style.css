@@ -40,10 +40,10 @@ body ,#app{
 
 .swiper-btn-next {
   @apply rounded-l-sm right-0;
-  background: url("/src/assets/img/chevron-right.svg") rgba(0,0,0,.6) no-repeat center center;
+  background: url("/chevron-right.svg") rgba(0,0,0,.6) no-repeat center center;
 }
 
 .swiper-btn-prev {
   @apply rounded-r-sm left-0;
-  background: url("/src/assets/img/chevron-left.svg") rgba(0,0,0,.6) no-repeat center center;
+  background: url("/chevron-left.svg") rgba(0,0,0,.6) no-repeat center center;
 }

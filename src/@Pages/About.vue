@@ -18,7 +18,7 @@
             <div class="mb-4">
               <div class="mb-2">
                 <div data-aos="zoom-in" data-aos-duration="1000" class=" w-60 mx-auto">
-                  <img src="/airplan.svg" class="h-auto w-full rounded-lg" alt="" />
+                  <img src="/avatar.png" class="h-auto w-full rounded-lg" alt="" />
                 </div>
               </div>
               <div class="mb-2 text-sm text-gray-900 leading-6" data-aos="fade-right">
@@ -47,7 +47,7 @@
                 <CircleProgressBar v-for="(work) in workSkill" :key="work.src" :value="work.value" :max="100"
                   strokeWidth="9" :color-filled="work.color" color-unfilled="#819B9A" :rounded="true"
                   class="lg:max-h-20 max-h-16">
-                  <img class="w-5 h-5" :src="getImageUrl(work.src)" alt="skill logo">
+                  <img class="w-5 h-5" :src="`/about/` + work.src" alt="skill logo">
                 </CircleProgressBar>
               </div>
             </div>
@@ -106,7 +106,7 @@
                   <li class="text-center mx-auto transition duration-500 hover:scale-125" v-for="(abilitie) in Abilities"
                     data-aos="flip-right" data-aos-delay="100" data-aos-duration="500" data-aos-easing="ease-in-sine">
                     <div>
-                      <img class="w-16" :src="getImageUrl(abilitie.img)" alt="Abilities Img">
+                      <img class="w-16" :src="`/about/` + abilitie.img" alt="Abilities Img">
                     </div>
                     <h6 class="text-xs">{{ abilitie.text }}</h6>
                   </li>
@@ -258,7 +258,7 @@
                           </h6>
                         </div>
                         <div class="flex flex-row items-center">
-                          <img class="w-10 h-10 mr-3" :src="getImageUrl(work.logo)" alt="">
+                          <img class="w-10 h-10 mr-3" :src="`/about/` + work.logo" alt="">
                           <div class="text-xl font-semibold text-[#464C4C]">
                             <div class="font-medium text-sm">{{ work.office }}
                               <span class="text-gray-500 text-xs">/ {{ work.company
@@ -355,27 +355,27 @@
 // import svg1 from '@/components/svg.vue'
 import { CircleProgressBar } from 'vue3-m-circle-progress-bar';
 
-const getImageUrl = (path: string) => {
-  return new URL(`/src/assets/img/${path}`, import.meta.url).href;
-};
+// const getImageUrl = (path: string) => {
+//   return new URL(`/src/assets/img/${path}`, import.meta.url).href;
+// };
 
 const workList = [
   {
-    logo: "about/logo_hw.png",
+    logo: "logo_hw.png",
     office: "好會飛網路股份有限公司",
     company: "網頁設計師",
     dateRange: "2019/3~2023/3",
     dateTotal: "4年1個月"
   },
   {
-    logo: "about/logo_ptt.jpg",
+    logo: "logo_ptt.jpg",
     office: "博彩堂印刷設計",
     company: "美編",
     dateRange: "2017/4~2018/3",
     dateTotal: "1年"
   },
   {
-    logo: "about/logo_gm.png",
+    logo: "logo_gm.png",
     office: "景美企業社",
     company: "行政秘書",
     dateRange: "2013/9~2017/7",
@@ -385,63 +385,63 @@ const workList = [
 
 const workSkill = [
   {
-    src: "about/ai.png",
+    src: "ai.png",
     color: "#FF9A00",
     value: 90
   },
   {
-    src: "about/ps.png",
+    src: "ps.png",
     color: "#001E36",
     value: 80
   },
   {
-    src: "about/xd.png",
+    src: "xd.png",
     color: "#470137",
     value: 92
   },
   {
-    src: "about/pr.png",
+    src: "pr.png",
     color: "#00005B",
     value: 70
   }
   ,
   {
-    src: "about/ax.png",
+    src: "ax.png",
     color: "#2C87C9",
     value: 80
   },
   {
-    src: "about/fg.png",
+    src: "fg.png",
     color: "#353535",
     value: 85
   },
   {
-    src: "about/scss.png",
+    src: "scss.png",
     color: "#CB6699",
     value: 85
   },
   {
-    src: "about/bs.png",
+    src: "bs.png",
     color: "#9013FE",
     value: 90
   },
   {
-    src: "about/git.png",
+    src: "git.png",
     color: "#FC573B",
     value: 85
   },
   {
-    src: "about/jq.png",
+    src: "jq.png",
     color: "#0C6AAD",
     value: 85
   },
   {
-    src: "about/js.png",
+    src: "js.png",
     color: "#FDDE00",
     value: 70
   },
   {
-    src: "about/vue.png",
+    src: "vue.png",
     color: "#42B883",
     value: 70
   }
@@ -449,36 +449,36 @@ const workSkill = [
 
 const Abilities = [
   {
-    img: "about/i_01.svg",
+    img: "i_01.svg",
     text: "視覺美感",
   },
   {
-    img: "about/i_02.svg",
+    img: "i_02.svg",
     text: "介面設計",
   },
   {
-    img: "about/i_03.svg",
+    img: "i_03.svg",
     text: "流程邏輯",
   },
   {
-    img: "about/i_04.svg",
+    img: "i_04.svg",
     text: "團隊合作",
   }
   ,
   {
-    img: "about/i_05.svg",
+    img: "i_05.svg",
     text: "使用者研究",
   },
   {
-    img: "about/i_06.svg",
+    img: "i_06.svg",
     text: "客製化插圖",
   },
   {
-    img: "about/i_07.svg",
+    img: "i_07.svg",
     text: "互動設計",
   },
   {
-    img: "about/i_08.svg",
+    img: "i_08.svg",
     text: "前端語言",
   }
 ];
