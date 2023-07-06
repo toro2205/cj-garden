@@ -1,11 +1,11 @@
 const cardData = [
   {
-    "cardImg": "gm_cover.png",
+    "cardImg": "https://i.imgur.com/uJjTkSv.png",
     swiperImg:[
-      "gm_01.png",
-      "gm_02.png",
-      "gm_03.png",
-      "gm_04.png",
+      "https://i.imgur.com/Ae3BpLS.png",
+      "https://i.imgur.com/JQfG00i.png",
+      "https://i.imgur.com/3WTuKho.png",
+      "https://i.imgur.com/nvbJQ2C.png",
     ],
     "cardTitle": "GoodMaji 物流平台優化",
     "cardTag": "好馬吉物流",
@@ -14,11 +14,11 @@ const cardData = [
     "designConcept": '重新設計並改造整體配色及風格，提升視覺效果和使用者體驗，讓整體UI界面更加清晰。'
   },
   {
-    "cardImg": "ai_cover.png",
+    "cardImg": "https://i.imgur.com/vPcN5LS.png",
     swiperImg:[
-      "ai_01.png",
-      "ai_02.png",
-      "ai_03.png",
+      "https://i.imgur.com/aQHdiof.png",
+      "https://i.imgur.com/jnirYGb.png",
+      "https://i.imgur.com/3TOJ0W6.png",
     ],
     "cardTitle": "AI Center",
     "cardTag": "供應商後台",
@@ -27,10 +27,10 @@ const cardData = [
     "designConcept": "提共給廠商商品上下架及建立活動...等。負責建立Guideline，商品上下架規劃、對帳報表、受眾分析...等頁面。"
   },
   {
-    "cardImg": "game_cover.png",
+    "cardImg": "https://i.imgur.com/6Ud8eVI.png",
     swiperImg:[
-      "game_01.png",
-      "game_02.png",
+      "https://i.imgur.com/Nas3JRO.png",
+      "https://i.imgur.com/JEaqcdB.png",
     ],
     "cardTitle": "Game",
     "cardTag": "Slot & Spin Wheel",
@@ -39,11 +39,11 @@ const cardData = [
     "designConcept": "客戶花費哈幣玩拉霸,並得到品牌贈品,於下次結帳時一起贈送出去"
   },
   {
-    "cardImg": "promo_cover.png",
+    "cardImg": "https://i.imgur.com/TjwAzmz.png",
     swiperImg:[
-      "promo_01.png",
-      "promo_02.png",
-      "promo_03.png",
+      "https://i.imgur.com/4M2zfy4.png",
+      "https://i.imgur.com/RNHxf2h.png",
+      "https://i.imgur.com/DmSPbdF.png",
     ],
     "cardTitle": "Promotions",
     "cardTag": "基底、節慶活動",
@@ -52,12 +52,12 @@ const cardData = [
     "designConcept": "。"
   },
   {
-    "cardImg": "system_cover.png",
+    "cardImg": "https://i.imgur.com/20Z8kck.png",
     swiperImg:[
-      "system_01.png",
-      "system_02.png",
-      "system_03.png",
-      "system_04.png",
+      "https://i.imgur.com/DoNNfO2.png",
+      "https://i.imgur.com/vi66gvo.png",
+      "https://i.imgur.com/V1Tw9Q0.png",
+      "https://i.imgur.com/g7N3fze.png",
     ],
     "cardTitle": "HaWooo System",
     "cardTag": "HaWooo Web",
@@ -66,11 +66,11 @@ const cardData = [
     "designConcept": "定義各狀態元件並且模組化"
   },
   {
-    "cardImg": "website_cover.png",
+    "cardImg": "https://i.imgur.com/1RdsRYF.png",
     swiperImg:[
-      "website_01.png",
-      "website_02.png",
-      "website_03.png",
+      "https://i.imgur.com/c1BrMxY.png",
+      "https://i.imgur.com/XKa9Gum.png",
+      "https://i.imgur.com/OODY5RS.png",
     ],
     "cardTitle": "Website",
     "cardTag": "網站製作",
