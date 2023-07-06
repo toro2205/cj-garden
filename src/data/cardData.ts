@@ -1,6 +1,6 @@
 const cardData = [
   {
-    "cardImg": "/01.png",
+    "cardImg": "https://i.imgur.com/uJjTkSv.png",
     swiperImg:[
       "https://i.imgur.com/Ae3BpLS.png",
       "https://i.imgur.com/JQfG00i.png",

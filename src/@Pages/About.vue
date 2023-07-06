@@ -18,7 +18,7 @@
             <div class="mb-4">
               <div class="mb-2">
                 <div data-aos="zoom-in" data-aos-duration="1000" class=" w-60 mx-auto">
-                  <img src="/avatar.png" class="h-auto w-full rounded-lg" alt="" />
+                  <img src="/airplan.svg" class="h-auto w-full rounded-lg" alt="" />
                 </div>
               </div>
               <div class="mb-2 text-sm text-gray-900 leading-6" data-aos="fade-right">
