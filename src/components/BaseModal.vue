@@ -28,7 +28,7 @@
                 prevEl: '.swiper-btn-prev'
               }">
               <swiper-slide v-for="(img, index) in swiperImg" :key="index">
-                <img class="w-full" :src="`/portfolio/` + img" alt="">
+                <img class="w-full" :src="img" alt="">
               </swiper-slide>
               <button class="swiper-btn-next">next</button>
               <button class="swiper-btn-prev">prev</button>
@@ -41,7 +41,7 @@
                 :watchSliderProgress="true" :modules="modules" class="mySwiper w-80">
                 <swiper-slide v-for="(img, index) in swiperImg" :key="index">
                   <a href="#!">
-                    <img class="w-full" :src="`/portfolio/` + img" alt="">
+                    <img class="w-full" :src="img" alt="">
                   </a>
                 </swiper-slide>
               </Swiper>

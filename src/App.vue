@@ -47,7 +47,7 @@
 
       <ul class="flex justify-center flex-wrap">
         <li>
-          <RouterLink to="/" class="text-base md:text-xl hover:text-cyan-500 btn group">
+          <RouterLink to="/portfolio/" class="text-base md:text-xl hover:text-cyan-500 btn group">
             <span>
               About</span>
           </RouterLink>
