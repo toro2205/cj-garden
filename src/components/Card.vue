@@ -2,8 +2,7 @@
     <a class="relative w-full block cursor-pointer rounded  group" @click="$emit('open-modal')">
         <div class="p-4">
             <div class="overflow-hidden ">
-                <img :src="`/portfolio/` + cardImg" alt="Card Image"
-                    class="w-full group-hover:scale-105 transition duration-300" />
+                <img :src="cardImg" alt="Card Image" class="w-full group-hover:scale-105 transition duration-300" />
                 <div
                     class="p-3 opacity-0 lg:group-hover:opacity-100 duration-400 absolute top-0 left-0 right-0 h-full w-full bg-opacity-70 bg-[#4c4f4e] inset-x-0  text-center">
                     <div

@@ -6,7 +6,7 @@ import NotFound from "@pages/NotFoundPage.vue";
 const _routes:Array<vR.RouteRecordRaw> = [
 //Path & Component are mandatory.
 {
-    path:"/",
+    path:"/portfolio/",
     component:AboutVue,
     name:"home"
 },

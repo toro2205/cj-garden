@@ -47,7 +47,7 @@
                 <CircleProgressBar v-for="(work) in workSkill" :key="work.src" :value="work.value" :max="100"
                   strokeWidth="9" :color-filled="work.color" color-unfilled="#819B9A" :rounded="true"
                   class="lg:max-h-20 max-h-16">
-                  <img class="w-5 h-5" :src="`/about/` + work.src" alt="skill logo">
+                  <img class="w-5 h-5" :src="getImageUrl(work.src)" alt="skill logo">
                 </CircleProgressBar>
               </div>
             </div>
@@ -106,7 +106,7 @@
                   <li class="text-center mx-auto transition duration-500 hover:scale-125" v-for="(abilitie) in Abilities"
                     data-aos="flip-right" data-aos-delay="100" data-aos-duration="500" data-aos-easing="ease-in-sine">
                     <div>
-                      <img class="w-16" :src="`/about/` + abilitie.img" alt="Abilities Img">
+                      <img class="w-16" :src="getImageUrl(abilitie.img)" alt="Abilities Img">
                     </div>
                     <h6 class="text-xs">{{ abilitie.text }}</h6>
                   </li>
@@ -258,7 +258,7 @@
                           </h6>
                         </div>
                         <div class="flex flex-row items-center">
-                          <img class="w-10 h-10 mr-3" :src="`/about/` + work.logo" alt="">
+                          <img class="w-10 h-10 mr-3" :src="getImageUrl(work.logo)" alt="">
                           <div class="text-xl font-semibold text-[#464C4C]">
                             <div class="font-medium text-sm">{{ work.office }}
                               <span class="text-gray-500 text-xs">/ {{ work.company
@@ -355,9 +355,9 @@
 // import svg1 from '@/components/svg.vue'
 import { CircleProgressBar } from 'vue3-m-circle-progress-bar';
 
-// const getImageUrl = (path: string) => {
-//   return new URL(`/src/assets/img/${path}`, import.meta.url).href;
-// };
+const getImageUrl = (path: string) => {
+  return new URL(`/src/assets/img/about/${path}`, import.meta.url).href;
+};
 
 const workList = [
   {
