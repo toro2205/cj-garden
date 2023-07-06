@@ -25,7 +25,7 @@ export default defineConfig({
       eslintrc: { enabled: true },
     }),
   ],
-  base: "/portfolio/",
+  base: "./",
   resolve:{
     alias:{
       //Two methods available
